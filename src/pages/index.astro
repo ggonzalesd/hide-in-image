@@ -1,8 +1,14 @@
 ---
 import Layout from '@/layouts/Layout.astro';
+import Header from '@/components/Header.astro';
 import Comp from '@/components/Comp.svelte';
+import InputFile from '@/components/InputFile.svelte';
 ---
 
 <Layout>
+  <Header />
   <Comp client:load />
+  <div class='h-screen'>
+    <InputFile client:load />
+  </div>
 </Layout>
