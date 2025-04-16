@@ -21,6 +21,8 @@
     "prettier-plugin-astro": "^0.14.1",
     "prettier-plugin-css-order": "^2.1.2",
     "prettier-plugin-svelte": "^3.3.3",
-    "prettier-plugin-tailwindcss": "^0.6.11"
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "sass": "^1.86.3",
+    "sass-embedded": "^1.86.3"
   }
 }
